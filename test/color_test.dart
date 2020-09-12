@@ -1,8 +1,7 @@
 import 'models/models.dart';
 import 'models/models.reflectable.dart';
 import 'package:flutter_model_form_validation/flutter_model_form_validation.dart';
-import 'package:flutter_model_form_validation_extended/src/annotations/validators/color.dart';
-import 'package:flutter_model_form_validation_extended/src/utils/enum.dart';
+import 'package:flutter_model_form_validation_extended/flutter_model_form_validation_extended.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

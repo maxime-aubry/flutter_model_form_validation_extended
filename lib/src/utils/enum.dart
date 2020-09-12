@@ -7,6 +7,11 @@ enum ColorType {
   ncol,
 }
 
+enum GpsPart {
+  latitude,
+  longitude,
+}
+
 enum GpsFormat {
   dd,
   dms,

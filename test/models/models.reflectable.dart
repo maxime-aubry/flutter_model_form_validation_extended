@@ -8,6 +8,8 @@ import 'package:flutter_model_form_validation/src/annotations/flutter_model_form
     as prefix0;
 import 'package:flutter_model_form_validation_extended/src/annotations/validators/color.dart'
     as prefix3;
+import 'package:flutter_model_form_validation_extended/src/annotations/validators/gps.dart'
+    as prefix5;
 import 'package:flutter_model_form_validation_extended/src/utils/enum.dart'
     as prefix4;
 
@@ -33,7 +35,7 @@ final _data = <r.Reflectable, r.ReflectorData>{
             0,
             const prefix0.FlutterModelFormValidator(),
             const <int>[0, 1],
-            const <int>[9, 10, 11, 12, 13, 7, 8],
+            const <int>[29, 30, 31, 32, 33, 27, 28],
             const <int>[],
             -1,
             {},
@@ -51,7 +53,7 @@ final _data = <r.Reflectable, r.ReflectorData>{
             1,
             const prefix0.FlutterModelFormValidator(),
             const <int>[2, 3],
-            const <int>[9, 10, 11, 12, 13, 14, 15],
+            const <int>[29, 30, 31, 32, 33, 34, 35],
             const <int>[],
             -1,
             {},
@@ -69,7 +71,7 @@ final _data = <r.Reflectable, r.ReflectorData>{
             2,
             const prefix0.FlutterModelFormValidator(),
             const <int>[4, 5],
-            const <int>[9, 10, 11, 12, 13, 16, 17],
+            const <int>[29, 30, 31, 32, 33, 36, 37],
             const <int>[],
             -1,
             {},
@@ -87,7 +89,79 @@ final _data = <r.Reflectable, r.ReflectorData>{
             3,
             const prefix0.FlutterModelFormValidator(),
             const <int>[6],
-            const <int>[9, 10, 11, 12, 13, 18],
+            const <int>[29, 30, 31, 32, 33, 38],
+            const <int>[],
+            -1,
+            {},
+            {},
+            {},
+            -1,
+            -1,
+            const <int>[-1],
+            const <Object>[prefix0.flutterModelFormValidator],
+            null),
+        r.NonGenericClassMirrorImpl(
+            r'GPSTest',
+            r'.GPSTest',
+            7,
+            4,
+            const prefix0.FlutterModelFormValidator(),
+            const <int>[7, 8, 9, 10, 11, 12],
+            const <int>[29, 30, 31, 32, 33, 39, 40, 41, 42, 43, 44],
+            const <int>[],
+            -1,
+            {},
+            {},
+            {},
+            -1,
+            -1,
+            const <int>[-1],
+            const <Object>[prefix0.flutterModelFormValidator],
+            null),
+        r.NonGenericClassMirrorImpl(
+            r'GPSWithUserAndDeveloperValuesTest',
+            r'.GPSWithUserAndDeveloperValuesTest',
+            7,
+            5,
+            const prefix0.FlutterModelFormValidator(),
+            const <int>[13, 14, 15, 16, 17, 18],
+            const <int>[29, 30, 31, 32, 33, 45, 46, 47, 48, 49, 50],
+            const <int>[],
+            -1,
+            {},
+            {},
+            {},
+            -1,
+            -1,
+            const <int>[-1],
+            const <Object>[prefix0.flutterModelFormValidator],
+            null),
+        r.NonGenericClassMirrorImpl(
+            r'GPSWithUserValuesTest',
+            r'.GPSWithUserValuesTest',
+            7,
+            6,
+            const prefix0.FlutterModelFormValidator(),
+            const <int>[19, 20, 21, 22, 23, 24],
+            const <int>[29, 30, 31, 32, 33, 51, 52, 53, 54, 55, 56],
+            const <int>[],
+            -1,
+            {},
+            {},
+            {},
+            -1,
+            -1,
+            const <int>[-1],
+            const <Object>[prefix0.flutterModelFormValidator],
+            null),
+        r.NonGenericClassMirrorImpl(
+            r'GPSWithDeveloperValuesTest',
+            r'.GPSWithDeveloperValuesTest',
+            7,
+            7,
+            const prefix0.FlutterModelFormValidator(),
+            const <int>[25, 26],
+            const <int>[29, 30, 31, 32, 33, 57, 58],
             const <int>[],
             -1,
             {},
@@ -179,10 +253,242 @@ final _data = <r.Reflectable, r.ReflectorData>{
               colorType: prefix4.ColorType.hex,
               error: 'This String is not in the range')
         ]),
+        r.VariableMirrorImpl(
+            r'latitude',
+            33797,
+            4,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const <Object>[
+          const prefix5.GPS(
+              gpsPartOnProperty: 'gpsPartOnLatitude',
+              gpsFormatOnProperty: 'gpsFormatOnLatitude',
+              gpsPart: prefix4.GpsPart.latitude,
+              gpsFormat: prefix4.GpsFormat.dd,
+              error: 'Invalid GPS latitude')
+        ]),
+        r.VariableMirrorImpl(
+            r'gpsPartOnLatitude',
+            33797,
+            4,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const []),
+        r.VariableMirrorImpl(
+            r'gpsFormatOnLatitude',
+            33797,
+            4,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const []),
+        r.VariableMirrorImpl(
+            r'longitude',
+            33797,
+            4,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const <Object>[
+          const prefix5.GPS(
+              gpsPartOnProperty: 'gpsPartOnLongitude',
+              gpsFormatOnProperty: 'gpsFormatOnLongitude',
+              gpsPart: prefix4.GpsPart.longitude,
+              gpsFormat: prefix4.GpsFormat.dd,
+              error: 'Invalid GPS longitude')
+        ]),
+        r.VariableMirrorImpl(
+            r'gpsPartOnLongitude',
+            33797,
+            4,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const []),
+        r.VariableMirrorImpl(
+            r'gpsFormatOnLongitude',
+            33797,
+            4,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const []),
+        r.VariableMirrorImpl(
+            r'latitude',
+            33797,
+            5,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const <Object>[
+          const prefix5.GPS(
+              gpsPartOnProperty: 'gpsPartOnLatitude',
+              gpsFormatOnProperty: 'gpsFormatOnLatitude',
+              gpsPart: prefix4.GpsPart.latitude,
+              gpsFormat: prefix4.GpsFormat.dd,
+              error: 'Invalid GPS latitude')
+        ]),
+        r.VariableMirrorImpl(
+            r'gpsPartOnLatitude',
+            33797,
+            5,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const []),
+        r.VariableMirrorImpl(
+            r'gpsFormatOnLatitude',
+            33797,
+            5,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const []),
+        r.VariableMirrorImpl(
+            r'longitude',
+            33797,
+            5,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const <Object>[
+          const prefix5.GPS(
+              gpsPartOnProperty: 'gpsPartOnLongitude',
+              gpsFormatOnProperty: 'gpsFormatOnLongitude',
+              gpsPart: prefix4.GpsPart.longitude,
+              gpsFormat: prefix4.GpsFormat.dd,
+              error: 'Invalid GPS longitude')
+        ]),
+        r.VariableMirrorImpl(
+            r'gpsPartOnLongitude',
+            33797,
+            5,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const []),
+        r.VariableMirrorImpl(
+            r'gpsFormatOnLongitude',
+            33797,
+            5,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const []),
+        r.VariableMirrorImpl(
+            r'latitude',
+            33797,
+            6,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const <Object>[
+          const prefix5.GPS(
+              gpsPartOnProperty: 'gpsPartOnLatitude',
+              gpsFormatOnProperty: 'gpsFormatOnLatitude',
+              gpsPart: prefix4.GpsPart.latitude,
+              gpsFormat: prefix4.GpsFormat.dd,
+              error: 'Invalid GPS latitude')
+        ]),
+        r.VariableMirrorImpl(
+            r'gpsPartOnLatitude',
+            33797,
+            6,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const []),
+        r.VariableMirrorImpl(
+            r'gpsFormatOnLatitude',
+            33797,
+            6,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const []),
+        r.VariableMirrorImpl(
+            r'longitude',
+            33797,
+            6,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const <Object>[
+          const prefix5.GPS(
+              gpsPartOnProperty: 'gpsPartOnLongitude',
+              gpsFormatOnProperty: 'gpsFormatOnLongitude',
+              gpsPart: prefix4.GpsPart.longitude,
+              gpsFormat: prefix4.GpsFormat.dd,
+              error: 'Invalid GPS longitude')
+        ]),
+        r.VariableMirrorImpl(
+            r'gpsPartOnLongitude',
+            33797,
+            6,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const []),
+        r.VariableMirrorImpl(
+            r'gpsFormatOnLongitude',
+            33797,
+            6,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const []),
+        r.VariableMirrorImpl(
+            r'latitude',
+            33797,
+            7,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const <Object>[
+          const prefix5.GPS(
+              gpsPart: prefix4.GpsPart.latitude,
+              gpsFormat: prefix4.GpsFormat.dd,
+              error: 'Invalid GPS latitude')
+        ]),
+        r.VariableMirrorImpl(
+            r'longitude',
+            33797,
+            7,
+            const prefix0.FlutterModelFormValidator(),
+            -1,
+            -1,
+            -1,
+            null, const <Object>[
+          const prefix5.GPS(
+              gpsPart: prefix4.GpsPart.longitude,
+              gpsFormat: prefix4.GpsFormat.dd,
+              error: 'Invalid GPS longitude')
+        ]),
         r.ImplicitGetterMirrorImpl(
-            const prefix0.FlutterModelFormValidator(), 0, 7),
+            const prefix0.FlutterModelFormValidator(), 0, 27),
         r.ImplicitGetterMirrorImpl(
-            const prefix0.FlutterModelFormValidator(), 1, 8),
+            const prefix0.FlutterModelFormValidator(), 1, 28),
         r.MethodMirrorImpl(
             r'==',
             131074,
@@ -212,21 +518,61 @@ final _data = <r.Reflectable, r.ReflectorData>{
         r.MethodMirrorImpl(r'runtimeType', 131075, null, -1, -1, -1, null,
             const <int>[], const prefix0.FlutterModelFormValidator(), const []),
         r.ImplicitGetterMirrorImpl(
-            const prefix0.FlutterModelFormValidator(), 2, 14),
+            const prefix0.FlutterModelFormValidator(), 2, 34),
         r.ImplicitGetterMirrorImpl(
-            const prefix0.FlutterModelFormValidator(), 3, 15),
+            const prefix0.FlutterModelFormValidator(), 3, 35),
         r.ImplicitGetterMirrorImpl(
-            const prefix0.FlutterModelFormValidator(), 4, 16),
+            const prefix0.FlutterModelFormValidator(), 4, 36),
         r.ImplicitGetterMirrorImpl(
-            const prefix0.FlutterModelFormValidator(), 5, 17),
+            const prefix0.FlutterModelFormValidator(), 5, 37),
         r.ImplicitGetterMirrorImpl(
-            const prefix0.FlutterModelFormValidator(), 6, 18)
+            const prefix0.FlutterModelFormValidator(), 6, 38),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 7, 39),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 8, 40),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 9, 41),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 10, 42),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 11, 43),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 12, 44),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 13, 45),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 14, 46),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 15, 47),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 16, 48),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 17, 49),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 18, 50),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 19, 51),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 20, 52),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 21, 53),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 22, 54),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 23, 55),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 24, 56),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 25, 57),
+        r.ImplicitGetterMirrorImpl(
+            const prefix0.FlutterModelFormValidator(), 26, 58)
       ],
       <m.ParameterMirror>[
         r.ParameterMirrorImpl(
             r'other',
             32774,
-            9,
+            29,
             const prefix0.FlutterModelFormValidator(),
             -1,
             -1,
@@ -238,7 +584,7 @@ final _data = <r.Reflectable, r.ReflectorData>{
         r.ParameterMirrorImpl(
             r'invocation',
             32774,
-            11,
+            31,
             const prefix0.FlutterModelFormValidator(),
             -1,
             -1,
@@ -252,9 +598,13 @@ final _data = <r.Reflectable, r.ReflectorData>{
         prefix1.ColorTest,
         prefix1.ColorWithUserAndDeveloperValuesTest,
         prefix1.ColorWithUserValuesTest,
-        prefix1.ColorWithDeveloperValuesTest
+        prefix1.ColorWithDeveloperValuesTest,
+        prefix1.GPSTest,
+        prefix1.GPSWithUserAndDeveloperValuesTest,
+        prefix1.GPSWithUserValuesTest,
+        prefix1.GPSWithDeveloperValuesTest
       ],
-      4,
+      8,
       {
         r'==': (dynamic instance) => (x) => instance == x,
         r'toString': (dynamic instance) => instance.toString,
@@ -262,7 +612,16 @@ final _data = <r.Reflectable, r.ReflectorData>{
         r'hashCode': (dynamic instance) => instance.hashCode,
         r'runtimeType': (dynamic instance) => instance.runtimeType,
         r'value': (dynamic instance) => instance.value,
-        r'colorType': (dynamic instance) => instance.colorType
+        r'colorType': (dynamic instance) => instance.colorType,
+        r'latitude': (dynamic instance) => instance.latitude,
+        r'gpsPartOnLatitude': (dynamic instance) => instance.gpsPartOnLatitude,
+        r'gpsFormatOnLatitude': (dynamic instance) =>
+            instance.gpsFormatOnLatitude,
+        r'longitude': (dynamic instance) => instance.longitude,
+        r'gpsPartOnLongitude': (dynamic instance) =>
+            instance.gpsPartOnLongitude,
+        r'gpsFormatOnLongitude': (dynamic instance) =>
+            instance.gpsFormatOnLongitude
       },
       {},
       null,
